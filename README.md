@@ -13,4 +13,7 @@ To use this server:
 
 This server is essentially a caching wrapper around the result from OER to get around the 1000/month limit, as well as providing two routes for using the data.
 
-The routes available are described on the root path `GET /`
+The routes available are:
+ 1. `GET /` - description of the API
+ 2. `POST /convert?from=XXX&to=YYY&amount=NNN&precision=NNN` - convert an amount to a different currency, with optional precision.
+ 3. `GET /rates?base=USD` - get a list of rates with optional base conversion.
