@@ -1,0 +1,9 @@
+{
+	"name": "money",
+	"description": "API for exchanging currencies",
+	"version": "0.0.1",
+	"dependencies": {
+		"restify": "*",
+		"q": "*"
+	}
+}
