@@ -1,9 +1,9 @@
 # CONFIG
-port = process.env.MONEY_PORT
+port = process.env.MONEY_PORT or process.env.PORT
 api_key = process.env.MONEY_KEY
 api_limit = 1000 # max number of requests per MONTH
 
-if not port? or isNaN Number process.env.MONEY_PORT
+if not port? or isNaN port
 	console.log 'Envvar MONEY_PORT must be set and be numeric'
 	process.exit 0
 
