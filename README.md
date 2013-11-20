@@ -1,7 +1,9 @@
 money-api
 =========
 
-Provide a server using OpenExchangeRates data for converting currencies nicely
+Provide a server using OpenExchangeRates data for converting currencies nicely.
+
+There is a version running at http://oer-cache.herokuapp.com/ but you are free to run your own. Putting it on heroku should be as simple as clone+push (plus setting the key envvar).
 
 To use this server:
  1. Create an API key on OpenExchangeRates.org
